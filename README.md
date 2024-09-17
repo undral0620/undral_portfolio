@@ -1,6 +1,6 @@
 ## SQL Data Cleaning and Tableau Data Visualization Exploratory Project
 
-### [Part 1. Data Cleaning using SQL](https://github.com/undralnaran/undral_portfolio/blob/main/agriculture_data_cleaning.sql) 
+### [Part 1. SQL Data Cleaning](https://github.com/undralnaran/undral_portfolio/blob/main/agriculture_data_cleaning.sql) 
 Dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/kdstoys/agricultural-products-sales-data-2022-2023). This dataset provides comprehensive information on agricultural product sales, supply chain metrics, and pricing across various categories, including Vegetables, Fruits, Grains, Dairy, and Livestock, for the years 2022 and 2023. It contains detailed records for over 8,000 transactions, capturing essential data points  such as product IDs, product names, categories, price per kilogram, units shipped, units sold, units on hand, supplier information, farm locations, and sale dates. One thing to note about this dataset is that, data is from 4 farms in each state and in each product category. 
 </p>Original dataset visual:</p>
 
@@ -24,7 +24,7 @@ Final dataset visual:
 
 ![Final dataset](https://github.com/user-attachments/assets/ee2befac-a0d2-463a-b74d-bafe05b36ce3)
 
-### [Part 2. Data Visualization using Tableau](https://github.com/undralnaran/undral_portfolio/blob/main/Portfolio.twb)
+### [Part 2. Tableau Data Visualization](https://github.com/undralnaran/undral_portfolio/blob/main/Portfolio.twb)
 
 The final cleaned dataset with values in pound was visualized using Tableau. This exploratory visualization approached 4 key insights to give high level but detailed understanding of the farming supply chain from all fifty states.   
 
