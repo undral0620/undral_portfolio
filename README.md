@@ -10,18 +10,18 @@ intro paragraph
 </p>All data cleaning efforts were done by staging the original dataset by creating identical table, in order to eliminate the risk of permanently altering the original dataset. </p>
 </p>There are 4 main parts that took place to prapare cleaning, analysis ready dataset.</p>
 </p> 1. Remove duplicates: </p>
-	</p>Used ROW_NUMBER to assign a row number comparing every single column to make sure accuracy. Any row that has a number other than 1 signifies the row is a duplicate. Checked if there is any rows that has a row number greater than 1 by creating CTE. Result showed there was no duplicates. </p>
+</p>Used ROW_NUMBER to assign a row number comparing every single column to make sure accuracy. Any row that has a number other than 1 signifies the row is a duplicate. Checked if there is any rows that has a row number greater than 1 by creating CTE. Result showed there was no duplicates. </p>
 </p> 2. Standardize the data: </p>
-	</p>Firstly, all the rows were updated using trim to remove possible leading and trailing empty spaces. </p>
- 	</p>Secondly, data column had text data type; thereofre, was updated to date data type to help ensure date analysis accuracy. </p>
+</p>Firstly, all the rows were updated using trim to remove possible leading and trailing empty spaces. </p>
+</p>Secondly, data column had text data type; thereofre, was updated to date data type to help ensure date analysis accuracy. </p>
 </p> 3. Null values or blank values: </p>
-	</p>Used WHERE, IS NULL, OR '' to check if there was any black on null values. Result showed there was none. </p>
+</p>Used WHERE, IS NULL, OR '' to check if there was any black on null values. Result showed there was none. </p>
 </p> 4. Remove unnecessary columns or making necessary changes: 
-	</p>Firstly, all the units measures were in kilograms. Since the dataset is from farms in the US, those unit measures were transformed into pounds by creating new columns and updating with new calculation (multiplied by 2.2046). The result was rounded to an integer.</p>
-	</p>Secondly, farm_location column had both the town and the state of the farm together, separated by comma. This needed to be separated in order to analyze state level analysis. This was done using SUBSTRING_INDEX.</p>
+</p>Firstly, all the units measures were in kilograms. Since the dataset is from farms in the US, those unit measures were transformed into pounds by creating new columns and updating with new calculation (multiplied by 2.2046). The result was rounded to an integer.</p>
+</p>Secondly, farm_location column had both the town and the state of the farm together, separated by comma. This needed to be separated in order to analyze state level analysis. This was done using SUBSTRING_INDEX.</p>
 
- </p>Finally, after performing all the above, created new staged table one final time with all the new calculated columns. Consequently, removed unnecessary columns and left with the analysis ready new dataset. </p>
-</p> Final dataset visual:</p>
+</p>Finally, after performing all the above, created new staged table one final time with all the new calculated columns. Consequently, removed unnecessary columns and left with the analysis ready new dataset. </p>
+</p>Final dataset visual:</p>
  ![image](https://github.com/user-attachments/assets/4ab55f4f-4094-4fa8-8a1b-e188b45dba05)
 
 
