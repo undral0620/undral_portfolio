@@ -33,7 +33,7 @@ The final cleaned dataset with values in pound was visualized using Tableau. Thi
 ![image](https://github.com/user-attachments/assets/c2435d94-32cc-4a17-8a47-bc4b09a34e66)
 ![image](https://github.com/user-attachments/assets/3dfb8f03-c9a9-4462-b635-d7418c22ca08)
 
-3. TOP PERFORMING PRODUCTS: Top 5 selling products remained the same in both years as Lamb, Beef, Cheese, Pork and Butter. 
+2. TOP PERFORMING PRODUCTS: Top 5 selling products remained the same in both years as Lamb, Beef, Cheese, Pork and Butter. 
 
 ![image](https://github.com/user-attachments/assets/892817f6-24e5-43cd-80cb-20c6f9807389)
 ![image](https://github.com/user-attachments/assets/4dbb1e51-45c2-4607-b257-bfcc9ce9044a)
